@@ -32,7 +32,7 @@ class Vm
      * @param $veId int 搬瓦工veid
      * @param $apiKey string 搬瓦工api_key
      */
-    private function __construct ( $veId, $apiKey)
+    private function __construct ( $veId, $apiKey )
     {
         $veId = isset($veId) ? $veId : null;
 
